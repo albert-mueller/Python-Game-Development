@@ -1,0 +1,13 @@
+my_touple=(81,90,50),(1,545,666)
+print (my_touple[1][2])
+mein_touple=(33,44,55),(66,77,88)
+print(mein_touple[0][1])
+zusammengemachte_touples=(232,555,666,777,556,6655,4354)
+print(zusammengemachte_touples[0:3])
+print(zusammengemachte_touples[2:5])
+print(zusammengemachte_touples[-2:])
+print(zusammengemachte_touples[-4:-1])
+print(zusammengemachte_touples[0:])
+new_touple=(1,2,3,[10,12])
+new_touple[3][1]=200
+print(new_touple)
